@@ -1,0 +1,57 @@
+.page {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $colorText;
+    background-color: $colorWhitePrimary;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+address {
+    font-style: normal;
+}
+
+%button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    color: $colorWhitePrimary;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    background-color: $colorAccentPrimary;
+    box-shadow: $shadowButton;
+    border-width: 0;
+    cursor: pointer;
+}

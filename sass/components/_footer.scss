@@ -1,0 +1,23 @@
+.footer {
+    background-color: $colorBackgraundFooter;
+}
+
+.footer__address {
+    color: $colorWhitePrimary;
+    transition: color $duration $timingFunction;
+    
+        &:hover,
+        &:focus {
+            color: $colorAccentPrimary;
+        }
+}
+
+.footer__contact {
+    color: $colorFooterContact;
+    transition: color $duration $timingFunction;
+    
+        &:hover,
+        &:focus {
+            color: $colorAccentPrimary;
+        }
+}
