@@ -39,7 +39,7 @@ address {
   font-style: normal;
 }
 
-.hero__button {
+.footer__button, .hero__button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -154,4 +154,15 @@ address {
 }
 .footer__contact:hover, .footer__contact:focus {
   color: #2196F3;
+}
+
+.footer__button {
+  padding-left: 28px;
+  padding-right: 28px;
+  fill: #FFFFFF;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer__button:hover, .footer__button:focus {
+  background-color: #188CE8;
 }/*# sourceMappingURL=main.css.map */

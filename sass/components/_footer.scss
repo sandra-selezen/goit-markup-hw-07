@@ -21,3 +21,16 @@
             color: $colorAccentPrimary;
         }
 }
+
+.footer__button {
+    @extend %button;
+    padding-left: 28px;
+    padding-right: 28px;
+    fill: $colorWhitePrimary;
+    transition: background-color $duration $timingFunction;
+    
+        &:hover,
+        &:focus {
+            background-color: $colorAccentSecondary;
+        }
+}
