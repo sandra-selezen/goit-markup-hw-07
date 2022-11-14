@@ -317,54 +317,64 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
-            <a href="./index.html" class="logo-label">Web<span class="logo-label--white">Studio</span></a>
-            <address id="contacts">
-                <ul>
-                    <li><a class="footer__address" href="https://goo.gl/maps/kAR4QX175ZXcQiyq7" rel="noreferrer noopener"
-                            target="_blank" title="Google Карти">м. Київ, пр-т Лесі Українки, 26</a></li>
-                    <li><a class="footer__contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="footer__contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <div class="container footer__container">
+            <div class="footer__box">
+                <a href="./index.html" class="logo-label footer__logo-label">Web<span class="logo-label--white">Studio</span></a>
+                <address id="contacts">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a class="footer__address" href="https://goo.gl/maps/kAR4QX175ZXcQiyq7" rel="noreferrer noopener"
+                                target="_blank" title="Google Карти">м. Київ, пр-т Лесі Українки, 26</a></li>
+                        <li class="footer__item"><a class="footer__contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="footer__item"><a class="footer__contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer__social">
+                <p class="footer__cta">приєднуйтесь</p>
+                <ul class="social">
+                    <li class="social__item">
+                        <a class="social__link social__link--white" href="https://www.instagram.com" rel="noreferrer noopener"
+                            target="_blank" title="Instagram">
+                            <svg width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link social__link--white" href="https://twitter.com" rel="noreferrer noopener" target="_blank"
+                            title="Twitter">
+                            <svg width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link social__link--white" href="https://www.facebook.com" rel="noreferrer noopener"
+                            target="_blank" title="Facebook">
+                            <svg width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link social__link--white" href="https://www.linkedin.com" rel="noreferrer noopener"
+                            target="_blank" title="LinkedIn">
+                            <svg width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-            </address>
-            <p>приєднуйтесь</p>
-            <ul class="social">
-                <li class="social__item">
-                    <a class="social__link social__link--white" href="https://www.instagram.com" rel="noreferrer noopener" target="_blank" title="Instagram">
-                        <svg width="20" height="20">
-                            <use href="./images/icons.svg#icon-instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link social__link--white" href="https://twitter.com" rel="noreferrer noopener" target="_blank" title="Twitter">
-                        <svg width="20" height="20">
-                            <use href="./images/icons.svg#icon-twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link social__link--white" href="https://www.facebook.com" rel="noreferrer noopener" target="_blank" title="Facebook">
-                        <svg width="20" height="20">
-                            <use href="./images/icons.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link social__link--white" href="https://www.linkedin.com" rel="noreferrer noopener" target="_blank" title="LinkedIn">
-                        <svg width="20" height="20">
-                            <use href="./images/icons.svg#icon-linkedin"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-            <p>підпишіться на розсилку</p>
-            <form>
-                <input type="email" name="name" placeholder="E-mail">
-                <button type="submit" class="footer__button">Підписатися <svg width="24" height="24">
-                        <use href="./images/icons.svg#icon-send"></use>
-                    </svg></button>
-            </form>
+            </div>
+            <div class="footer__form">
+                <p class="footer__cta">підпишіться на розсилку</p>
+                <form class="submit-form">
+                    <input class="submit-form__field" type="email" name="name" placeholder="E-mail">
+                    <button type="submit" class="submit-form__button">Підписатися <svg class="submit-form__icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg></button>
+                </form>
+            </div>
         </div>
     </footer>
     <script src="./js/modal.js"></script>

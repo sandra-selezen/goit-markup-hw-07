@@ -38,7 +38,7 @@ address {
   font-style: normal;
 }
 
-.footer__button, .hero__button {
+.submit-form__button, .hero__button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -442,7 +442,38 @@ address {
 }
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2F303A;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.footer__box {
+  margin-right: 70px;
+}
+
+.footer__form {
+  margin-left: auto;
+}
+
+.footer__logo-label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer__item {
+  margin-bottom: 9px;
+}
+.footer__item:last-child {
+  margin-bottom: 0;
 }
 
 .footer__address {
@@ -455,6 +486,7 @@ address {
 }
 
 .footer__contact {
+  margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -463,13 +495,44 @@ address {
   color: #2196F3;
 }
 
-.footer__button {
+.footer__cta {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.submit-form__field {
+  width: 358px;
+  margin-right: 12px;
+  padding: 15px 16px;
+  color: #FFFFFF;
+  background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.submit-form__button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-left: 28px;
   padding-right: 28px;
   fill: #FFFFFF;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__button:hover, .footer__button:focus {
+.submit-form__button:hover, .submit-form__button:focus {
   background-color: #188CE8;
+}
+
+.submit-form__icon {
+  margin-left: 10px;
 }/*# sourceMappingURL=main.css.map */
