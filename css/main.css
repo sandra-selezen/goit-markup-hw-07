@@ -1,11 +1,10 @@
-.page {
+body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
-  background-color: #FFFFFF;
 }
 
 h1,
@@ -132,6 +131,50 @@ address {
 }
 .hero__button:hover, .hero__button:focus {
   background-color: #188CE8;
+}
+
+.section {
+  padding: 94px 0 94px 0;
+  background-color: #FFFFFF;
+}
+
+.section--no-padding {
+  padding-top: 0;
+}
+
+.section--bgr-grey {
+  background-color: #F5F4FA;
+}
+
+.section__title {
+  padding-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: #212121;
+}
+
+.section__title--hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer {
