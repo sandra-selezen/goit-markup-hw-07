@@ -1,7 +1,8 @@
 .features__title,
 .about__title,
 .team__title,
-.clients__title {
+.clients__title,
+.portfolio__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -10,7 +11,8 @@
     color: $colorTitle;
 }
 
-.features__title--hidden {
+.features__title--hidden,
+.portfolio__title--hidden {
     position: absolute;
     width: 1px;
     height: 1px;

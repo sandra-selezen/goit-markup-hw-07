@@ -242,10 +242,15 @@ address {
   margin-right: auto;
 }
 
+.portfolio__button-set {
+  margin-bottom: 50px;
+}
+
 .features__title,
 .about__title,
 .team__title,
-.clients__title {
+.clients__title,
+.portfolio__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -254,7 +259,8 @@ address {
   color: #212121;
 }
 
-.features__title--hidden {
+.features__title--hidden,
+.portfolio__title--hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -439,6 +445,50 @@ address {
 }
 .social__link--white:hover, .social__link--white:focus {
   background-color: #2196F3;
+}
+
+.button-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button-set__item {
+  margin-right: 8px;
+}
+.button-set__item:last-child {
+  margin-right: 0;
+}
+
+.button-set__button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  padding: 6px 22px;
+  border-width: 0;
+  color: #212121;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-set__button:hover, .button-set__button:focus {
+  color: #FFFFFF;
+  background-color: #2196F3;
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .footer {
