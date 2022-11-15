@@ -1,11 +1,13 @@
 @import 'utils/variables';
-@import 'components/page';
+@import 'components/reset';
+@import 'components/common';
 @import 'components/navigation';
 @import 'components/header';
 @import 'components/logo';
 @import 'components/hero';
 @import 'components/section';
-@import 'components/content';
+@import 'components/studio-content';
 @import 'components/social';
 @import 'components/button-set';
+@import 'components/portfolio-content';
 @import 'components/footer';
