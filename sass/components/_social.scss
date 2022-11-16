@@ -13,6 +13,7 @@
     fill: $colorIcon;
     transition: background-color $duration $timingFunction,
     fill $duration $timingFunction;
+        
         &:hover, &:focus {
             fill: $colorWhitePrimary;
             background-color: $colorAccentPrimary;

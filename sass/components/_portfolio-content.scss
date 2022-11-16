@@ -36,11 +36,11 @@
     background-color: $colorAccentOpacity;
     transform: translatey(100%);
     transition: transform $duration $timingFunction;
+}
 
-    .portfolio__link:hover &,
-    .portfolio__link:focus & {
-        transform: translatey(0);
-    }
+.portfolio__link:hover .portfolio__overlay,
+.portfolio__link:focus .portfolio__overlay {
+    transform: translatey(0);
 }
 
 .portfolio__content {
