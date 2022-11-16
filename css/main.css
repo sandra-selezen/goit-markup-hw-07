@@ -194,8 +194,8 @@ body {
   padding-bottom: 200px;
   text-align: center;
   background-color: #C4C4C4;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/hero-img.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero-img.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/hero-img.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -414,7 +414,7 @@ body {
 .form__icon-checkbox--hidden:checked + .form__icon-checkbox {
   border-color: #2196F3;
   background-color: #2196F3;
-  background-image: url(../../images/check.svg);
+  background-image: url(/images/check.svg);
   background-size: contain;
   background-position: center;
   background-origin: border-box;
